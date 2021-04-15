@@ -1,0 +1,16 @@
+.Features {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100vh;
+    .grid {
+        display: grid;
+        width: 63%;
+        height: 71%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 3em;
+        place-items: center;
+    }
+}
