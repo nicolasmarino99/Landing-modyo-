@@ -4,7 +4,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: {
-    main: './src/index.js',
+    main: ['./src/index.js', './src/apiCalls.js'],
   },
   output: {
     filename: 'main.js',

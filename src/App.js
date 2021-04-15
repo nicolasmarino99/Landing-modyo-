@@ -1,20 +1,22 @@
-import logo from '../assets/images/svg_1.svg';
+import Features from './components/Features/Features';
+import Home from './components/Home';
+import Navbar from './components/Navbar';
+import AboutUs from './components/AboutUs';
+import Create from './components/Create';
+import Testimonials from './components/Testimonials';
+import GetInTouch from './components/GetInTouch';
+import Copyright from './components/Copyright';
 
 const App = () => (
   `<div class="App">
-        <h1>Welcome to a Nico App</h1>
-        <img class="App-logo" src="${logo}" alt="Svg image"/>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="http://www.nicolasmarinoparra.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Check out my website
-        </a>
+        ${Navbar()}
+        ${Home()}
+        ${Features()}
+        ${Create()}
+        ${AboutUs()}
+        ${Testimonials()}
+        ${GetInTouch()}
+        ${Copyright()}
     </div>`
 );
 
