@@ -1,5 +1,6 @@
 import homeImg from '../../assets/images/landing_1.png';
 
+
 const Home = () => (
   `<div class="Home">
             <h2>Landerz.</h2>

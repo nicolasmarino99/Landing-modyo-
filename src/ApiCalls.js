@@ -1,23 +1,24 @@
-/* eslint-disable no-unused-vars */
 /* eslint-disable no-console */
-import Splide from '@splidejs/splide';
 import axios from 'axios';
+import Copyright from './components/Copyright';
+import cleanData from './components/DataCleaning';
+import GetInTouch from './components/GetInTouch';
+import Testimonials from './components/Testimonials/Testimonials';
 
 
-const getUsers = async () => {
+const getData = async () => {
   try {
-    const resp = await axios.get('https://jsonplaceholder.typicode.com/users');
+    const root = document.querySelector('.App');
+    const users = await axios.get('https://jsonplaceholder.typicode.com/users');
+    const posts = await axios.get('https://jsonplaceholder.typicode.com/posts');
+
+    const testimonials = cleanData(users.data, posts.data);
+
+    root.insertAdjacentHTML('beforeend', Testimonials(testimonials));
+    root.insertAdjacentHTML('beforeend', GetInTouch());
+    root.insertAdjacentHTML('beforeend', Copyright());
   } catch (error) {
     console.error(error);
   }
 };
-
-
-const getPosts = async () => {
-  try {
-    const resp = await axios.get('https://jsonplaceholder.typicode.com/posts');
-    console.log(resp);
-  } catch (error) {
-    console.error(error);
-  }
-};
+getData();
