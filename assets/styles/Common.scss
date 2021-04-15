@@ -27,3 +27,14 @@ h1 {
 .Features, .AboutUs, .GetInTouch {
  background-color: $page-color;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    color: #6e7881;
+    font-size: 15px;
+    line-height: 25px;
+}
