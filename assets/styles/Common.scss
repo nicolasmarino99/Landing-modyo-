@@ -1,0 +1,24 @@
+$base-color: #00d3b5;
+
+button {
+    color: white;
+    background-color: $base-color;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 1000;
+    line-height: 1.1;
+}
+
+.color-main {
+    color: $base-color;
+}
+
+.background-main {
+    background: $base-color;
+}

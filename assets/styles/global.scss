@@ -1,8 +1,8 @@
 //@import '../fonts/icomoon/font/_flaticon.scss';
 //@import '../fonts/icomoon/icomoon.scss';
-// font-family: 'icomoon';
-// font-family: "Flaticon";
-
+@import './Navbar.scss';
+@import './Home.scss';
+@import './Common.scss';
 
 * {
     margin: 0;
@@ -17,21 +17,19 @@ html {
 body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 .root {
     height: 100%;
 }
 
 .App {
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(99, 14, 14);
     height: 100%;
 }
-
 
 .icon-cards {
     position: relative;

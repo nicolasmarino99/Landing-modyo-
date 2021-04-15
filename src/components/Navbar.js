@@ -1,3 +1,5 @@
+import '../../assets/styles/Navbar.scss';
+
 const Navbar = () => (
   ` <nav>
         <a href="#">Home</a>
@@ -5,7 +7,7 @@ const Navbar = () => (
         <a href="#">About Us</a>
         <a href="#">Testimonials</a>
         <a href="#">Blog</a>
-        <a href="#">Contact</a>
+        <a href="#" class="color-main">Contact</a>
     </nav>`
 );
 
