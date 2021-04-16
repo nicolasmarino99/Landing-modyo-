@@ -1,0 +1,14 @@
+.drop {
+    animation: dropIn 1s ease forwards;
+    animation-delay: calc(var(--order)*100ms);
+}
+@keyframes dropIn {
+    from {
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

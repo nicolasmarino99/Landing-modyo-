@@ -1,7 +1,18 @@
 //@import '../fonts/icomoon/font/_flaticon.scss';
 //@import '../fonts/icomoon/icomoon.scss';
-// font-family: 'icomoon';
-// font-family: "Flaticon";
+@import './Navbar.scss';
+@import './Home.scss';
+@import './Common.scss';
+@import './Features.scss';
+@import './Card.scss';
+@import './Create.scss';
+@import './AboutUs.scss';
+@import './Testimonials.scss';
+@import './Slides.scss';
+@import './GetInTouch.scss';
+@import './Copyright.scss';
+@import './animations.scss';
+
 
 * {
     margin: 0;
@@ -10,38 +21,25 @@
 }
 
 html {
-    height: 100%;
     background-color: #FAFBFC;
+    scroll-behavior: smooth;
 }
 
 body {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Flaticon', sans-serif;
+    overflow-x: hidden;
 }
 .root {
     height: 100%;
+    background: white;
 }
 
 .App {
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: black;
     height: 100%;
-    @media (prefers-reduced-motion: no-preference) {
-        .App-logo {
-          animation: App-logo-spin infinite 20s linear;
-        }
-      }
 }
 
-@keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
