@@ -3,7 +3,7 @@ import '../../assets/styles/Home.scss';
 
 
 const Home = () => (
-  `<div class="Home">
+  `<div class="Home" data-aos="fade-up">
             <h2>Landerz<span class="color-main">.</span></h2>
             <div class="container">
                 <div class="get-started">

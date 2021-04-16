@@ -1,4 +1,10 @@
+$base-color: #00d3b5;
+
 .Features {
+    height: 118vh;
+    @media all and (max-width:600px) {
+        height: 195vh;
+    }
     .grid {
         display: grid;
         width: 70%;
@@ -7,5 +13,19 @@
         grid-template-rows: repeat(2, 1fr);
         gap: 3em;
         place-items: center;
+        @media all and (max-width:600px) {
+            width: 100%;
+            height: 100%;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 1em;
+        }
+        span {
+            color: white;
+            border-radius: 50%;
+            padding: 10px;
+            background-color: #00d3b5;
+            font-size: 1.5em;
+        }
     }
 }

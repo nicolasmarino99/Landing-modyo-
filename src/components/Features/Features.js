@@ -3,12 +3,12 @@ import Card from './Card';
 
 const Features = () => {
   const state = [
-    { iconClass: 'e627', title: 'Business Consulting' },
-    { iconClass: 'e627', title: 'Market Analysis' },
-    { iconClass: 'e627', title: 'User Monitoring' },
-    { iconClass: 'e627', title: 'Insurance Consulting' },
-    { iconClass: 'e627', title: 'Customer Satisfied' },
-    { iconClass: 'e627', title: 'Plug & Play' },
+    { iconClass: 'flaticon-mexican-taco', title: 'Business Consulting' },
+    { iconClass: 'flaticon-house', title: 'Market Analysis' },
+    { iconClass: 'flaticon-guitar', title: 'User Monitoring' },
+    { iconClass: 'flaticon-gym', title: 'Insurance Consulting' },
+    { iconClass: 'flaticon-shopping-bag', title: 'Customer Satisfied' },
+    { iconClass: 'flaticon-cocktail', title: 'Plug & Play' },
   ];
 
   return (

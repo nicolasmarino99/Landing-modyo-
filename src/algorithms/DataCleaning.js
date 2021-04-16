@@ -7,7 +7,7 @@ const cleanData = (users, posts) => {
     if (selectOnePost) {
       element = {
         name: users[i].name,
-        photoId: `person_${Math.ceil((Math.random() * 3))}`,
+        photoId: `person_${Math.ceil((Math.random() * 4))}`,
         post: selectOnePost.body,
       };
       merge.push(element);

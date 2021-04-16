@@ -20,12 +20,19 @@ button, .button {
     border: none;
     border-radius: 20px;
     font-size: 15px;
+    text-align: center;
+    @media all and (max-width:600px) {
+        padding: 0em 3em;
+    }
 }
 
 h1 {
     font-size: 45px;
     font-weight: 1000;
     line-height: 1.1;
+    @media all and (max-width:600px) {
+        font-size: 33px;
+    }
 }
 
 .color-main {
@@ -55,4 +62,9 @@ p {
     color: #6e7881;
     font-size: 15px;
     line-height: 25px;
+    @media all and (max-width:600px) {
+        font-size: 13px;
+        line-height: 17px;
+    }
 }
+

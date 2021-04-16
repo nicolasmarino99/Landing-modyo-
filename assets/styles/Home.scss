@@ -1,5 +1,6 @@
 .Home {
     margin-top: 4em;
+    height: 100vh;
     h2 {
         text-align: center;
         font-size: 29px;
@@ -25,6 +26,9 @@
                 margin-bottom: 2.5em;
                 margin-top: 1em;
                 line-height: 26px;
+                @media all and (max-width:600px) {
+                    width: 158%;
+                }
             }
         }
     }

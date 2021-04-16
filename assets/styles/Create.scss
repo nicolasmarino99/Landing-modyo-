@@ -5,6 +5,9 @@
     height: 100vh;
     img {
         width: 40%;
+        @media all and (max-width:600px) {
+            width: 40%;
+        }
     }
     aside {
         height: 68%;
@@ -24,6 +27,9 @@
         box-shadow: 0px 0px 15px 5px rgb(0 0 0 / 7%);
         width: 56%;
         padding: 1.5em;
+        @media all and (max-width:600px) {
+            width: 100%;
+        }
         .ceo {
             img {
                 width: 13%;

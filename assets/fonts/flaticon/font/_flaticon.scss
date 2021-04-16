@@ -21,7 +21,9 @@
     src: url("./Flaticon.svg#Flaticon") format("svg");
   }
 }
-
+*{
+  font-family: 'Flaticon', sans-serif;
+}
     .fi:before{
         display: inline-block;
   font-family: "Flaticon";

@@ -8,6 +8,7 @@ const Navbar = () => (
         <a href="#">Testimonials</a>
         <a href="#">Blog</a>
         <a href="#" class="color-main">Contact</a>
+        <span class="flaticon-mexican-taco"></span>
     </nav>`
 );
 

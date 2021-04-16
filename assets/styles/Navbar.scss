@@ -13,4 +13,19 @@ nav {
     a {
         padding: 0 1.5em;
     }
+    span {
+        display: none;
+    }
+    @media all and (max-width:600px) {
+        a {
+            display: none;
+        }
+        span {
+            display: flex;
+            font-size: 3em;
+            position: relative;
+            left: 41%;
+
+        }
+    }
 }
