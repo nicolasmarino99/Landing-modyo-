@@ -1,0 +1,25 @@
+.GetInTouch {
+    height: 131vh;
+    h1 {
+        margin: 2em 0;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 3em 2em;
+        background-color: white;
+        .button {
+            margin-top: 2em;
+        }
+    
+    #join {
+        display: flex;
+        justify-content: space-between;
+    }
+    h3 {
+        margin-bottom: 2em;
+    }
+    }
+    
+}

@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 import axios from 'axios';
 import Copyright from './components/Copyright';
-import cleanData from './components/DataCleaning';
+import cleanData from './algorithms/DataCleaning';
 import GetInTouch from './components/GetInTouch';
 import Testimonials from './components/Testimonials/Testimonials';
 

@@ -1,7 +1,19 @@
 $base-color: #00d3b5;
 $page-color: #f6f6f6;
 
-button {
+input {
+    border: 1px solid #d4d4d4;
+    padding: 0.5em;
+}
+textarea {
+    border: 1px solid #d4d4d4;
+    margin-top: 1em;
+}
+label {
+    margin-bottom: 0.2em;
+}
+
+button, .button {
     color: white;
     background-color: $base-color;
     padding: 1em 2em;
