@@ -1,7 +1,7 @@
 import happyWoman from '../../assets/images/about_1.jpg';
 
 const AboutUs = () => (
-  `<div class="AboutUs" data-aos="fade-up">
+  `<div class="AboutUs" id="section4">
             <h1>About Us</h1>
             <div class="info-container">
                 <img src="${happyWoman}" alt="happyWoman">

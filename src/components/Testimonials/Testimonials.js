@@ -13,7 +13,7 @@ const Testimonials = (testimonials) => {
   };
 
   return (
-    ` <div class="Testimonials">
+    ` <div class="Testimonials" id="section5">
             <h1>Testimonials</h1>
             <figure class="icon-cards mt-3">
             <div class="icon-cards__content">

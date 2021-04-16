@@ -2,7 +2,7 @@ import amaliaImg from '../../assets/images/person_1.jpg';
 import prototypesImg from '../../assets/images/do_ui_kit_download_cta_floating_devices-2x.png';
 
 const Create = () => (
-  ` <div class="Create">
+  ` <div class="Create" id="section3">
             <img src="${prototypesImg}" alt="prototypesImg">
             <aside>
                 <h1>Create interactive prototypes</h1>

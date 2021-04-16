@@ -12,7 +12,7 @@ const Features = () => {
   ];
 
   return (
-    `<div class="Features">
+    `<div class="Features" id="section2">
         <h1>Features</h1>
         <div class="grid">
             ${state.map((card) => Card(card.iconClass, card.title))}

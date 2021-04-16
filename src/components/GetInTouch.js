@@ -1,5 +1,5 @@
 const GetInTouch = () => (
-  `<div class="GetInTouch">
+  `<div class="GetInTouch" id="section6">
             <h1>Get In Touch</h1>
             <form>
                 <h3>Contact Form</h3>
