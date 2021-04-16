@@ -3,15 +3,15 @@ import '../../assets/styles/Home.scss';
 
 
 const Home = () => (
-  `<div class="Home" data-aos="fade-up">
-            <h2>Landerz<span class="color-main">.</span></h2>
-            <div class="container">
+  `<div class="Home">
+            <h2 class="drop" style="--order: 1">Landerz<span class="color-main">.</span></h2>
+            <div class="container drop style="--order: 1"">
                 <div class="get-started">
                     <h1>Grow Your Business Faster</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi corrupti fugit quae. Magnam architecto corporis nobis dolorem</p>
                     <button>Get Started</button>
                 </div>
-                <img src="${homeImg}" alt="girl with computer">
+                <img class="drop" style="--order: 1" src="${homeImg}" alt="girl with computer">
             </div>
         </div>`
 );
