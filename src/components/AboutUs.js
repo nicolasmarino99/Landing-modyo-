@@ -7,7 +7,7 @@ const AboutUs = () => (
                 <img src="${happyWoman}" alt="happyWoman">
                 <div class="info">
                     <h2>Create interactive prototypes</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing </p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing, orem ipsum dolor sit, amet consectetur adipisicing, orem ipsum dolor sit, amet consectetur adipisicing orem ipsum dolor sit, amet consectetur adipisicing </p>
                     <button>Learn More</button>
                 </div>
             </div>
